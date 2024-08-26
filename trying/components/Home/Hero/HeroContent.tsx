@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroContent = () => {
   return (
-    <div>
+    <div className="pt-12">
       {/* title */}
       <h1 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold md:leading-[2rem] lg:leading-[2rem] xl:leading-[2.5rem] text-white">
         Best Service and Quality Guranteed.
@@ -17,7 +17,7 @@ const HeroContent = () => {
       </p>
       {/* buttons */}
       <div className="mt-8 flex items-center space-x-4">
-        <button className="button__cls bg-green-700 hover:bg-gray-900">Categories</button>
+        <button className="button__cls bg-green-700 hover:bg-green-900">Categories</button>
         <a href="/#Contact" className="button__cls bg-yellow-700 hover:bg-yellow-900">
           Contact Us
         </a>

@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="pt-20 pb-12 bg-black">
       <div className="w-[90%] mx-auto flex items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-8 border-b-[1.5px] border-white border-opacity-20">
         {/* 1st part */}
-        <div data-aos="fade-right" data-aos-delay="200" className="hidden md:block">
+        <div className="hidden md:block">
           <Image src={"/images/3.png"} alt="logo" height={100} width={100} />
           <p className="text-white text-opacity-50 mt-6">
             Expore our Categories and Different Products.
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         {/* 2nd part */}
-        <div data-aos="fade-right">
+        <div>
           <h1 className="footer__heading">Quick Links</h1>
           <a href="#">
             <p className="footer__links">Home</p>
@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
         </div>
         {/* 3nd part */}
-        <div data-aos="fade-left">
+        <div>
           <h1 className="footer__heading">Popular Categories</h1>
           <p className="footer__links">Wooden Print</p>
           <p className="footer__links">Mozac Print</p>
@@ -53,7 +53,7 @@ const Footer = () => {
           <p className="footer__links">Custom Print</p>
         </div>
         {/* 4rd part */}
-        <div data-aos="fade-left" data-aos-delay="200" className="hidden md:block">
+        <div className="hidden md:block">
           <h1 className="footer__heading">Get our New Products on your Email.</h1>
           <form action="https://api.web3forms.com/submit" method="POST">
             <input

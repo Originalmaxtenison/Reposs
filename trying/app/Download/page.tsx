@@ -11,10 +11,14 @@ export const metadata = {
 const Categorypage: React.FC = () => {
   return (
     <div>
+      {/* cut out noscroll */}
       <Noscroll />
       <div className="w-full pt-[12vh]">
         <div className="flex justify-center w-full bg-gray-200 pr-10 pl-10 pt-6">
-          <h1 data-aos="fade-up" className="text-4xl md:text-5xl pb-4 text-blue-950 xl:text-6xl font-bold border-b-4 border-blue-950 text-center">
+          <h1
+            data-aos="fade-up"
+            className="text-4xl md:text-5xl pb-4 text-blue-950 xl:text-6xl font-bold border-b-4 border-blue-950 text-center"
+          >
             Download
           </h1>
         </div>

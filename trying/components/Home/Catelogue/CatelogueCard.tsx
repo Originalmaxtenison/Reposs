@@ -19,11 +19,7 @@ type props = {
 
 const CatelogueCard = ({ product }: props) => {
   return (
-    <div
-      data-aos="fade-left"
-      data-aos-delay="200"
-      className="bg-white rounded-lg overflow-hidden relative"
-    >
+    <div className="bg-white rounded-lg overflow-hidden relative">
       {/* images */}
       <div>
         <Image

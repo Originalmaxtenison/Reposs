@@ -5,10 +5,9 @@ import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Catelogue from "./Catelogue/Catelogue";
 import Review from "./Review/Review";
-import Scrollbg from "../Helper/Scrollbg";
-
 import AOS from "aos";
 import "aos/dist/aos.css"; //you can also use Link for styles
+import Scrollbg from "../Helper/Scrollbg";
 
 const Home = () => {
   useEffect(() => {
@@ -27,6 +26,7 @@ const Home = () => {
 
   return (
     <div>
+      {/* cut out scrollbg */}
       <Scrollbg />
       <Hero />
       <About />
