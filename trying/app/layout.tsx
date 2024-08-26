@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Raposso",
     "raposso",
   ],
+  other: { "google-site-verification": "hQNJVCkHhLvTxNbEf1GsfQd3jUlBVGVE4XV4Pm48X7I" },
 };
 
 export default function RootLayout({
