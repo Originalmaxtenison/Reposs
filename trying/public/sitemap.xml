@@ -1,17 +1,21 @@
-<urlset xmlns="https://www.sitemap.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://reposso.vercel.app</loc>
 <lastmod>2024-08-26</lastmod>
+<changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
 <url>
 <loc>https://reposso.vercel.app/Download</loc>
 <lastmod>2024-08-26</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://reposso.vercel.app/Contact</loc>
 <lastmod>2024-08-26</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 </urlset>
